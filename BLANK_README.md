@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/pflores3/Applications-LambdaIntegrations">
+  <a href="https://github.com/LambWestonIT/Applications-LambdaIntegrations">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
