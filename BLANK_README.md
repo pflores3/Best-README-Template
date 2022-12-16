@@ -37,7 +37,7 @@
 <h3 align="center">Format Converter</h3>
 
   <p align="center">
-    project_description
+    XML to JSON and JSON to XML Converter. Simply paste your XML or JSON data and invoke the AWS API Gateway.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
