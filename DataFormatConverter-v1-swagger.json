@@ -1,0 +1,66 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "2022-12-06T04:00:07Z",
+    "title" : "DataFormatConverter"
+  },
+  "host" : "9yfcso6fpb.execute-api.us-east-1.amazonaws.com",
+  "basePath" : "/v1",
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/jsontoxml" : {
+      "get" : {
+        "produces" : [ "application/json" ],
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "schema" : {
+              "$ref" : "#/definitions/Empty"
+            }
+          }
+        }
+      },
+      "post" : {
+        "produces" : [ "application/json" ],
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "schema" : {
+              "$ref" : "#/definitions/Empty"
+            }
+          }
+        }
+      }
+    },
+    "/xmltojson" : {
+      "get" : {
+        "produces" : [ "application/json" ],
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "schema" : {
+              "$ref" : "#/definitions/Empty"
+            }
+          }
+        }
+      },
+      "post" : {
+        "produces" : [ "application/json" ],
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "schema" : {
+              "$ref" : "#/definitions/Empty"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "Empty" : {
+      "type" : "object",
+      "title" : "Empty Schema"
+    }
+  }
+}
