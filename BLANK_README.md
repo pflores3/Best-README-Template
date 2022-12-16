@@ -205,3 +205,4 @@ Project Link: [Microsoft Teams](https://teams.microsoft.com/_#/tab::619fc8d8-f61
 [JQuery-url]: https://jquery.com 
 [Python.org]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org
+[swagger]: 
