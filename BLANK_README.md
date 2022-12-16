@@ -18,12 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -38,16 +32,6 @@
 
   <p align="center">
     XML to JSON and JSON to XML converter
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
 </div>
 
 
@@ -69,12 +53,10 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#deployment">Deployment</a></li>
+    <li><a href="#developers">Developers</a></li>
+    <li><a href="#swagger">Swagger</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -85,7 +67,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Allows you to convert an XML file into a JSON file or a JSON file into an XML file. Simply paste your XML or JSON data and invoke the AWS API Gateway to produce the conversion.
+Allows you to convert an XML file into a JSON file or a JSON file into an XML file. Simply paste your XML or JSON data in the request body and invoke the AWS API Gateway to return the response body. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,16 +124,16 @@ Installation intended for MacOS and Linux based systems
 2. Zip the package directory.
   ```
   cd package
-  zip -r ../{directory_name}-{version}.zip .
+  zip -r ../{directory_name_version}.zip .
   ```
 3. Add the python file
   ```
   cd ..
-  zip -g {directory_name}-{version}.zip {file_name}.py
+  zip -g {directory_name_version}.zip {file_name}.py
   ```
 4. Upload the package to AWS S3.
   ```
-  aws s3 cp {directory_name}-{version}.zip s3://{S3_bucket_name}
+  aws s3 cp {directory_name_version}.zip s3://{S3_bucket}
   ```
 5. Deploy the S3 package to AWS Lambda.
 
