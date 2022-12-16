@@ -112,32 +112,48 @@ Installation intended for MacOS and Linux based systems
 
 * Python 3.7
 
-  ```sh
-  yum install python3
-  ```
+ ```sh
+ yum install python3
+ ```
 * Pip
-  ```sh
-  yum install python3-pip
-  ```
+ ```sh
+ yum install python3-pip
+ ```
 * xmltodict
-  ```sh
-  yum install xmltodict
-  ```
+ ```sh
+ yum install xmltodict
+ ```
  * json2xml
-   ```sh
-   yum install json2xml
-   ```
+  ```sh
+  yum install json2xml
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- Deployment  -->
+## Deployment
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Install packaged modules to a package directory.
+  ```
+  python3 -m pip install --target='./package' {module_name}
+  ```
+2. Zip the package directory.
+  ```
+  cd package
+  zip -r ../{directory_name}-{version}.zip .
+  ```
+3. Add the python file
+  ```
+  cd ..
+  zip -g {directory_name}-{version}.zip {file_name}.py
+  ```
+4. Upload the package to AWS S3.
+  ```
+  aws s3 cp {directory_name}-{version}.zip s3://{S3_bucket_name}
+  ```
+5. Deploy the S3 package to AWS Lambda.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,8 +172,7 @@ Paul Flores
 
 <!-- Swagger -->
 ## Swagger
-
-See `LICENSE.txt` for more information.
+Please see [swagger] for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,4 +220,4 @@ Project Link: [Microsoft Teams](https://teams.microsoft.com/_#/tab::619fc8d8-f61
 [JQuery-url]: https://jquery.com 
 [Python.org]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org
-[swagger]: 
+[swagger]: DataFormatConverter-v1-swagger.json
