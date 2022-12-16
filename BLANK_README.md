@@ -37,7 +37,7 @@
 <h3 align="center">Format Converter</h3>
 
   <p align="center">
-    XML to JSON and JSON to XML Converter. Simply paste your XML or JSON data and invoke the AWS API Gateway to produce the conversion.
+    XML to JSON and JSON to XML converter. Simply paste your XML or JSON data and invoke the AWS API Gateway to produce the conversion.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
