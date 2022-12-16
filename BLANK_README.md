@@ -37,7 +37,7 @@
 <h3 align="center">Format Converter</h3>
 
   <p align="center">
-    XML to JSON and JSON to XML converter. Simply paste your XML or JSON data and invoke the AWS API Gateway to produce the conversion.
+    XML to JSON and JSON to XML converter
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
@@ -85,7 +85,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Allows you to convert an XML file into a JSON file or a JSON file into an XML file. Simply paste your XML or JSON data and invoke the AWS API Gateway to produce the conversion.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
