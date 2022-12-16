@@ -168,7 +168,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!--Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com -->
 
-Project Link: [https://teams.microsoft.com/_#/tab::619fc8d8-f613-4ac6-b97a-7210b14f8be9/2-TECH-Capabilities?threadId=19:6f5eed158ea44786814899cdccbc4463@thread.tacv2&ctx=channel](https://github.com/github_username/repo_name)
+Project Link: [Microsoft Teams](https://teams.microsoft.com/_#/tab::619fc8d8-f613-4ac6-b97a-7210b14f8be9/2-TECH-Capabilities?threadId=19:6f5eed158ea44786814899cdccbc4463@thread.tacv2&ctx=channel)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
